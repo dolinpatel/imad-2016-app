@@ -1,3 +1,44 @@
 li, article, aside {
 	background-color:black;
 }
+figcaption{
+	color: white;
+}
+nav{
+	list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+nav li {
+  display:inline-block;
+  padding: 0;
+  margin: 0;
+}
+nav.align-right li {
+  float: right;
+}
+nav.align-right li {
+  float: right;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+li a:hover {
+  color: #333333;
+}
